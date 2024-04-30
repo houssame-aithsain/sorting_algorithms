@@ -19,6 +19,20 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
+/**
+ * struct count - Struct to hold variables for counting sort
+ *
+ * @i: Index for counting sort
+ * @max: Maximum value in array
+ * @size: Size of array
+ */
+typedef struct count
+{
+	int i;
+	int max;
+	int size;
+} count_t;
+
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
