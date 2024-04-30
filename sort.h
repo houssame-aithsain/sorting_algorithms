@@ -49,5 +49,6 @@ void swap_hoare(int *a, int *b);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
 void counting_sort_radix(int *array, size_t size, int exp);
+void quick_sort_recursive(int *array, int low, int high, size_t size);
 
 #endif /* SORT_H */
